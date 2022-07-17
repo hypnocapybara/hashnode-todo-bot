@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hashnode-todo"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Polev <apolevki09@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gino = "^1.0.1"
+python-dotenv = "^0.20.0"
+aiogram = "^2.21"
+emoji = "^1.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
